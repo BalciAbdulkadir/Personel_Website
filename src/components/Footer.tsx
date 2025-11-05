@@ -84,6 +84,14 @@ const Footer = () => {
               </li>
               <li>
                 <a 
+                  href="#makalelerim" 
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                >
+                  Makalelerim
+                </a>
+              </li>
+              <li>
+                <a 
                   href="#contact" 
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
