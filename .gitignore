@@ -1,0 +1,28 @@
+# --- Node ve Paketler (OLMAZSA OLMAZ) ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Build Çıktıları (Canlıya atılanlar, repoya girmez) ---
+dist/
+build/
+out/
+
+# --- Çevresel Değişkenler (Şifrelerini kaptırma sakın) ---
+.env
+.env.local
+.env.*.local
+
+# --- İşletim Sistemi Çöpleri ---
+.DS_Store
+Thumbs.db
+
+# --- Editör Ayarları ---
+.vscode/
+.idea/
+
+# --- Loglar ---
+logs/
+*.log
