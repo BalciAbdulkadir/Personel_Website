@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
 
   return (
     <section className="min-h-screen flex items-center justify-center section-padding relative overflow-hidden">
-  <ThemeToggle />   {/* 👈 buraya ekledik */}
+  <ThemeToggle />  
 
     
       {/* Background Elements */}
@@ -76,9 +76,9 @@ const Hero: React.FC = () => {
 
           {/* RIGHT - IMAGE */}
           <div className="flex justify-center md:justify-end">
-            {/* public klasörüne profile.png koy; veya src ile değiştir */}
+            
             <img
-              src="/kariyer.JPG"
+              src="/kariyer.webp"
               alt="Abdülkadir Balcı"
               className="w-64 h-64 rounded-full object-cover shadow-lg"
             />

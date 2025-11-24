@@ -2,18 +2,18 @@ const articles = [
   {
     title: 'AddScoped, AddTransient, AddSingleton: ASP.NET Core’da Dependency Injection',
     description: 'Stack Overflow\'dan "builder.Services.AddScoped" satırını kopyalamak kolay. Peki, "AddScoped" yerine "AddSingleton" yazsaydınız, uygulamanızın neden patlayacağını biliyor musunuz?',
-    imageUrl: '/ikincimakale.png', 
+    imageUrl: '/ikincimakale.webp', 
     link: 'https://medium.com/@balciabdulkadir61/addscoped-addtransient-addsingleton-asp-net-coreda-dependency-injection-bcca206b5d4e',
     btnText: 'Medium\'da Oku →',
-    btnClass: 'bg-blue-600 hover:bg-blue-700' // Birincil buton
+    btnClass: 'bg-blue-600 hover:bg-blue-700' 
   },
   {
     title: 'Bir Junior\'un İtirafları: Neden Bir Sonraki Projemde Service/Repository Şart?',
     description: 'Niyetim temiz kod yazmaktı. Ama "önce bir çalışsın" tuzağına düştüm. Bu makalede, "spagetti kod"un acısını ve Service/Repository mimarisinin neden lüks değil, zorunluluk olduğunu anlatıyorum.',
-    imageUrl: '/ilkmakale.png', 
+    imageUrl: '/ilkmakale.webp', 
     link: 'https://medium.com/@balciabdulkadir61/neden-bir-sonraki-projemde-service-repository-şart-0a82a5e2d28b',
     btnText: 'Medium\'da Oku →',
-    btnClass: 'bg-gray-800 hover:bg-gray-900' // İkincil buton
+    btnClass: 'bg-gray-800 hover:bg-gray-900' 
   }
 ];
 
