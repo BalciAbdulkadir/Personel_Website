@@ -19,7 +19,7 @@ const Footer = () => {
               <span className="gradient-text">Abdülkadir Balcı</span>
             </h3>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              Modern web uygulamaları ve backend sistemleri geliştiren Junior Software & System Developer
+              Modern web uygulamaları ve backend sistemleri geliştiren Junior Full Stack Developer & IT Technician
               Teknoloji tutkunu ve sürekli öğrenen bir yazılımcı.
             </p>
             <div className="flex gap-4">

@@ -37,7 +37,7 @@ const Hero: React.FC = () => {
             </h1>
 
             <p className="text-xl md:text-2xl text-muted-foreground mb-4">
-                  Junior Software & System Developer           
+                  Junior Full Stack Developer & IT Technician       
             </p>
 
             <p className="text-lg text-muted-foreground mb-12 leading-relaxed max-w-2xl">
