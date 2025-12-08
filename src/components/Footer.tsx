@@ -108,7 +108,7 @@ const Footer = () => {
               <p>
                 <strong className="text-foreground">E-posta:</strong><br />
                 <a 
-                  href="mailto:emirhan@example.com" 
+                  href="mailto:balciabdulkadir61@gmail.com" 
                   className="hover:text-primary transition-colors"
                 >
                   balciabdulkadir61@gmail.com
@@ -120,7 +120,7 @@ const Footer = () => {
               </p>
               <p>
                 <strong className="text-foreground">Konum:</strong><br />
-                Türkiye
+                İstanbul, Türkiye
               </p>
               <p>
                 <strong className="text-foreground">Durum:</strong><br />

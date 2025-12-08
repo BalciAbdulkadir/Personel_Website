@@ -14,7 +14,24 @@ const articles = [
     link: 'https://medium.com/@balciabdulkadir61/neden-bir-sonraki-projemde-service-repository-şart-0a82a5e2d28b',
     btnText: 'Medium\'da Oku →',
     btnClass: 'bg-gray-800 hover:bg-gray-900' 
+  },
+  {
+    title: 'Kod Yazmak Her Zaman Çözüm Değildir: “Maliyet/Fayda” Analizi',
+    description: 'Mühendislik, her projeye sıfırdan kod yazmak değil, doğru aracı seçmektir. Körü körüne kod yazmak yerine, WordPress ve .NET Core arasında nasıl Maliyet/Fayda analizi yaptığımı ve projeye göre en verimli çözümü nasıl belirlediğimi anlatıyorum.',
+    imageUrl: '/makaleuc.webp', 
+    link: 'https://medium.com/@balciabdulkadir61/kod-yazmak-her-zaman-çözüm-değildir-maliyet-fayda-analizi-18130a7a3e7b',
+    btnText: 'Medium\'da Oku →',
+    btnClass: 'bg-gray-800 hover:bg-gray-900' 
+  },
+  {
+    title: 'ASP.NET Core Identity ve ‘Varsayılan Güvenlik’ İlkesi',
+    description: 'ASP.NET Core Identity\'nin varsayılan güvenlik ilkesi, kullanıcı hesaplarını korumak için güçlü parolalar ve diğer güvenlik önlemleri gerektirir. Peki, bu varsayılan ayarları neden değiştirmemelisiniz?',
+    imageUrl: '/makaledort.webp', 
+    link: 'https://medium.com/@balciabdulkadir61/asp-net-core-identity-ve-varsayılan-güvenlik-i̇lkesi-5bd1f06b00c6',
+    btnText: 'Medium\'da Oku →',
+    btnClass: 'bg-gray-800 hover:bg-gray-900' 
   }
+  
 ];
 
 const Makalelerim = () => {

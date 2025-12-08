@@ -22,7 +22,8 @@ const Skills = () => {
         { name: "C#" },
         { name: "Entity Framework" },
         { name: "SQL Server" },
-        { name: "RESTful APIs" }
+        { name: "RESTful APIs" },
+        { name: ".Net 8" }
       ]
     },
     {
@@ -34,7 +35,7 @@ const Skills = () => {
         { name: "TypeScript", level: 80 },
         { name: "Tailwind CSS", level: 90 },
         { name: "Next.js", level: 75 },
-        { name: "JavaScript", level: 85 }
+        
       ]
     },
     {
