@@ -15,7 +15,7 @@ const Skills = () => {
   const skillCategories = [
     {
       title: "Mobil",
-      icon: Gamepad2, // Using Gamepad2 as placeholder or suggest Smartphone if available, but I'll stick to imported icons
+      icon: Gamepad2,
       color: "accent",
       skills: [
         { name: "Flutter", level: 70 },
@@ -28,7 +28,12 @@ const Skills = () => {
       color: "primary",
       skills: [
         { name: "ASP.NET Core", level: 80 },
-        { name: "C#", level: 80 }
+        { name: "C#", level: 80 },
+        { name: "Entity Framework Core", level: 80 },
+        {
+          name: "ASP.NET Core Identity", level: 80
+
+        }
       ]
     },
     {

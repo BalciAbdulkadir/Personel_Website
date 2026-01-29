@@ -19,8 +19,8 @@ const Footer = () => {
               <span className="gradient-text">Abdülkadir Balcı</span>
             </h3>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              Modern web uygulamaları ve backend sistemleri geliştiren Junior Full Stack Developer & IT Technician
-              Teknoloji tutkunu ve sürekli öğrenen bir yazılımcı.
+              Modern web teknolojileri ve ölçeklenebilir sistemler üzerine odaklanan bir Software Developer.
+              Teknoloji tutkunu ve sürekli öğrenmeye açık bir programcı.
             </p>
             <div className="flex gap-4">
               <Button variant="outline" size="sm" asChild>

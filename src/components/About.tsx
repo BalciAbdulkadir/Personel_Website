@@ -12,6 +12,7 @@ const About = () => {
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Bilgi İşlem alanında staj deneyimi ve serbest geliştirici olarak web projeleri geliştirme tecrübesine sahibim.
             Özellikle ASP.NET Core ve React teknolojileri ile performans odaklı çözümler üretiyorum.
+            Öte yandan Flutter ile mobil uygulama geliştirme alanında da kendimi geliştirdim. Aktif Projeler yapıyorum.
           </p>
         </div>
 
@@ -29,6 +30,8 @@ const About = () => {
               <p className="text-muted-foreground leading-relaxed">
                 Serbest Geliştirici olarak gıda ve perakende sektörü için ASP.NET Core ve React ile performans odaklı web mimarileri geliştirdim. KOBİ'ler için WordPress tabanlı kurumsal web siteleri kurdum.
               </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Ana odağım Flutter dilinde mobil ve web uygulamaları geliştirmek. Flutter üzerine yoğunlaşıyorum. </p>
             </div>
           </div>
 
@@ -57,23 +60,7 @@ const About = () => {
                 <div className="p-3 bg-accent/10 rounded-lg mr-4">
                   <Target className="h-6 w-6 text-accent" />
                 </div>
-                <div>
-                  <h4 className="text-xl font-semibold mb-2">Hedeflerim</h4>
-                  <ul className="space-y-2 text-muted-foreground text-sm">
-                    <li className="flex items-center">
-                      <Code className="h-4 w-4 mr-2 text-primary" />
-                      Senior Full Stack Developer olmak
-                    </li>
-                    <li className="flex items-center">
-                      <Code className="h-4 w-4 mr-2 text-primary" />
-                      Açık kaynak projelere katkı sağlamak
-                    </li>
-                    <li className="flex items-center">
-                      <Code className="h-4 w-4 mr-2 text-primary" />
-                      Teknoloji topluluğuna değer katmak
-                    </li>
-                  </ul>
-                </div>
+
               </div>
             </Card>
 
@@ -89,10 +76,7 @@ const About = () => {
                   <span className="text-muted-foreground">Durum:</span>
                   <p className="font-medium text-success">Çalışmaya açık</p>
                 </div>
-                <div>
-                  <span className="text-muted-foreground">İlgi Alanları:</span>
-                  <p className="font-medium">Web Dev, DevOps, IT, Siber Güvenlik</p>
-                </div>
+
                 <div>
                   <span className="text-muted-foreground">Diller:</span>
                   <p className="font-medium">İngilizce</p>

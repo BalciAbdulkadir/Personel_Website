@@ -15,7 +15,7 @@ const Projects = () => {
       githubUrl: "https://github.com/BalciAbdulkadir/Security_Payment_System",
       featured: true
     },
-    
+
     {
       title: "Online Sipariş Sitesi",
       description: "Ticari kaygım olmadan geliştirdiğim bir satış sitesi.",
@@ -24,24 +24,37 @@ const Projects = () => {
       icon: Shield,
       gradient: "from-success to-success-glow",
       demoUrl: "https://alokofte.shop",
-      githubUrl: "https://github.com/BalciAbdulkadir/Alo_Kofte", 
+      githubUrl: "https://github.com/BalciAbdulkadir/Alo_Kofte",
       featured: true
     },
 
-    
+
     {
       title: "Teklif Sepeti",
       description: "Resmi Fiyat Teklifi Uygulaması.",
       longDescription: "Teklif Sepeti, serbest çalışanların ve küçük işletmelerin müşterilerine hızlı ve profesyonel görünümlü fiyat teklifleri oluşturmasını kolaylaştıran web tabanlı bir uygulamadır. Word veya Excel ile uğraşmak yerine, teklif kalemlerinizi girip anında hesaplanmış, şık bir PDF çıktısı alabilirsiniz.",
-      
+
       technologies: ["C#", "ASP.NET Razor Pages", "SQLite", "EF Core", "QuestPDF"],
-      icon: HandCoins, 
+      icon: HandCoins,
       gradient: "from-blue-500 to-cyan-500",
-      githubUrl: "https://github.com/BalciAbdulkadir/Teklif_Sepeti", 
+      githubUrl: "https://github.com/BalciAbdulkadir/Teklif_Sepeti",
+      demoUrl: "#",
+      featured: true
+    },
+
+    {
+      title: "Neo Card",
+      description: "NFC Kartvizit Uygulaması",
+      longDescription: "Flutter kullanılarak geliştirilen bu projede, NFC Kartlarına veri yazmayı sağlayan bir mobil uygulama geliştirilmiştir. Verileri okuma kısmında ise Web arayüzü oluşturulmuş ve NFC Kartlarına yazılan veriler bu arayüz üzerinden görüntülenebilmektedir. ",
+
+      technologies: ["Flutter", "Dart", "Firebase"],
+      icon: HandCoins,
+      gradient: "from-purple-600 to-indigo-600",
+      githubUrl: "https://github.com/BalciAbdulkadir/Neo_Card",
       demoUrl: "#",
       featured: true
     }
-    
+
   ];
 
   // Kodun geri kalanı aynı şekilde çalışmaya devam ediyor
@@ -70,7 +83,7 @@ const Projects = () => {
                 <Card key={index} className="glass-effect border-border p-6 card-hover animate-slide-up group overflow-hidden relative">
                   {/* Background Gradient */}
                   <div className={`absolute inset-0 bg-gradient-to-br ${project.gradient} opacity-5 group-hover:opacity-10 transition-opacity`}></div>
-                  
+
                   <div className="relative z-10">
                     <div className="flex items-start justify-between mb-4">
                       <div className={`p-3 bg-gradient-to-br ${project.gradient} rounded-lg`}>
@@ -91,7 +104,7 @@ const Projects = () => {
                             <Github className="h-4 w-4" />
                           </a>
                         </Button>
-                        
+
                       </div>
                     </div>
 
@@ -109,13 +122,13 @@ const Projects = () => {
                       ))}
                     </div>
 
-                    
+
                     <div className="flex gap-3">
                       {project.demoUrl && project.demoUrl !== '#' && (
-                        <a 
-                          href={project.demoUrl} 
-                          target="_blank" 
-                          rel="noopener noreferrer" 
+                        <a
+                          href={project.demoUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
                           className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-success text-success-foreground shadow hover:bg-success/90 h-10 px-4 py-2"
                         >
                           <ExternalLink className="mr-2 h-4 w-4" />
@@ -123,10 +136,10 @@ const Projects = () => {
                         </a>
                       )}
                       {project.githubUrl && project.githubUrl !== '#' && (
-                        <a 
-                          href={project.githubUrl} 
-                          target="_blank" 
-                          rel="noopener noreferrer" 
+                        <a
+                          href={project.githubUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
                           className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-input bg-background text-foreground shadow-sm hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2">
                           <Github className="mr-2 h-4 w-4" />
                           Github Reposu
@@ -140,7 +153,7 @@ const Projects = () => {
           </div>
         </div>
 
-        
+
 
         {/* Call to Action */}
         <div className="text-center mt-16 animate-fade-in">
@@ -149,10 +162,10 @@ const Projects = () => {
             <p className="text-muted-foreground mb-6">
               GitHub profilimde daha fazla proje ve açık kaynak katkılarıma göz atabilirsiniz.
             </p>
-            <a 
-              href="https://github.com/BalciAbdulkadir" 
-              target="_blank" 
-              rel="noopener noreferrer" 
+            <a
+              href="https://github.com/BalciAbdulkadir"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground shadow hover:bg-primary/90 h-10 px-4 py-2"
             >
               <Github className="mr-2 h-5 w-5" />
