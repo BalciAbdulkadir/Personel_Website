@@ -24,9 +24,9 @@ const Footer = () => {
             </p>
             <div className="flex gap-4">
               <Button variant="outline" size="sm" asChild>
-                <a 
-                  href="https://github.com/BalciAbdulkadir" 
-                  target="_blank" 
+                <a
+                  href="https://github.com/BalciAbdulkadir"
+                  target="_blank"
                   rel="noopener noreferrer"
                   aria-label="GitHub Profili"
                 >
@@ -34,9 +34,9 @@ const Footer = () => {
                 </a>
               </Button>
               <Button variant="outline" size="sm" asChild>
-                <a 
-                  href="https://linkedin.com/in/abdülkadir-balcı" 
-                  target="_blank" 
+                <a
+                  href="https://linkedin.com/in/abdülkadir-balcı"
+                  target="_blank"
                   rel="noopener noreferrer"
                   aria-label="LinkedIn Profili"
                 >
@@ -44,7 +44,7 @@ const Footer = () => {
                 </a>
               </Button>
               <Button variant="outline" size="sm" asChild>
-                <a 
+                <a
                   href="mailto:balciabdulkadir61@gmail.com"
                   aria-label="E-posta Gönder"
                 >
@@ -59,40 +59,32 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Hızlı Erişim</h4>
             <ul className="space-y-3">
               <li>
-                <a 
-                  href="#about" 
+                <a
+                  href="#about"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
                   Hakkımda
                 </a>
               </li>
               <li>
-                <a 
-                  href="#skills" 
+                <a
+                  href="#skills"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
                   Yeteneklerim
                 </a>
               </li>
               <li>
-                <a 
-                  href="#projects" 
+                <a
+                  href="#projects"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
                   Projelerim
                 </a>
               </li>
               <li>
-                <a 
-                  href="#makalelerim" 
-                  className="text-muted-foreground hover:text-primary transition-colors"
-                >
-                  Makalelerim
-                </a>
-              </li>
-              <li>
-                <a 
-                  href="#contact" 
+                <a
+                  href="#contact"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
                   İletişim
@@ -107,8 +99,8 @@ const Footer = () => {
             <div className="space-y-3 text-muted-foreground">
               <p>
                 <strong className="text-foreground">E-posta:</strong><br />
-                <a 
-                  href="mailto:balciabdulkadir61@gmail.com" 
+                <a
+                  href="mailto:balciabdulkadir61@gmail.com"
                   className="hover:text-primary transition-colors"
                 >
                   balciabdulkadir61@gmail.com
@@ -139,15 +131,15 @@ const Footer = () => {
                 © {currentYear} Abdülkadir Balcı. Tüm hakları saklıdır.
               </p>
               <p className="text-muted-foreground text-xs mt-1 flex items-center justify-center md:justify-start">
-                
-                
+
+
               </p>
             </div>
 
             {/* Back to Top */}
-            <Button 
-              variant="outline" 
-              size="sm" 
+            <Button
+              variant="outline"
+              size="sm"
               onClick={scrollToTop}
               className="flex items-center gap-2 hover:bg-primary hover:text-primary-foreground transition-colors"
             >
@@ -160,7 +152,7 @@ const Footer = () => {
         {/* Tech Stack Credit */}
         <div className="mt-6 pt-6 border-t border-border">
           <p className="text-center text-xs text-muted-foreground">
-           
+
           </p>
         </div>
       </div>

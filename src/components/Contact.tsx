@@ -28,14 +28,14 @@ const Contact = () => {
     {
       icon: Phone,
       label: "Telefon",
-      value: "+90 541 815 66 61",
-      href: "tel:+905418156661", // Tıklayınca arama yapması için eklendi
+      value: "+90 541 815 6661",
+      href: "tel:+905418156661",
       color: "foreground"
     },
     {
       icon: MapPin,
       label: "Konum",
-      value: "İstanbul, Türkiye", // Şehri ekledim, daha net olsun
+      value: "Bağcılar, İstanbul, Türkiye",
       href: null,
       color: "success"
     }
@@ -56,7 +56,7 @@ const Contact = () => {
 
         {/* Ana İçerik - Kartlar */}
         <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8 mb-16 animate-slide-up">
-          
+
           {/* Sol Taraf: İletişim Bilgileri Listesi */}
           <Card className="glass-effect border-border p-8 h-full flex flex-col justify-center">
             <h3 className="text-2xl font-semibold mb-6">İletişim Kanalları</h3>
@@ -71,7 +71,7 @@ const Contact = () => {
                     <div>
                       <p className="text-sm text-muted-foreground">{info.label}</p>
                       {info.href ? (
-                        <a 
+                        <a
                           href={info.href}
                           className="text-foreground font-medium hover:text-primary transition-colors"
                           target="_blank"
@@ -118,7 +118,7 @@ const Contact = () => {
           </Card>
         </div>
 
-        
+
       </div>
     </section>
   );

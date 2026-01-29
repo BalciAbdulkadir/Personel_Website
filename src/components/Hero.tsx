@@ -14,9 +14,9 @@ const Hero: React.FC = () => {
 
   return (
     <section className="min-h-screen flex items-center justify-center section-padding relative overflow-hidden">
-  <ThemeToggle />  
+      <ThemeToggle />
 
-    
+
       {/* Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-20 left-20 w-72 h-72 bg-primary/10 rounded-full blur-3xl animate-float" />
@@ -37,13 +37,12 @@ const Hero: React.FC = () => {
             </h1>
 
             <p className="text-xl md:text-2xl text-muted-foreground mb-4">
-                  Junior Full Stack Developer & IT Technician       
+              Software Developer
             </p>
 
             <p className="text-lg text-muted-foreground mb-12 leading-relaxed max-w-2xl">
               Modern web uygulamaları ve backend sistemleri geliştiriyorum. ASP.NET Core,
               React ve modern teknolojilerle kullanıcı deneyimini ön planda tutan çözümler üretiyorum.
-              Bilgi İşlem alanında altyapı ve sistem yönetimi konularında da deneyim sahibiyim.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mb-16">
@@ -76,7 +75,7 @@ const Hero: React.FC = () => {
 
           {/* RIGHT - IMAGE */}
           <div className="flex justify-center md:justify-end">
-            
+
             <img
               src="/kariyer.webp"
               alt="Abdülkadir Balcı"

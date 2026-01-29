@@ -1,8 +1,8 @@
 import { Card } from "@/components/ui/card";
-import { 
-  Server, 
-  Globe, 
-  Shield, 
+import {
+  Server,
+  Globe,
+  Shield,
   Database,
   Layers,
   Code2,
@@ -14,48 +14,40 @@ import {
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Backend Geliştirme",
+      title: "Mobil",
+      icon: Gamepad2, // Using Gamepad2 as placeholder or suggest Smartphone if available, but I'll stick to imported icons
+      color: "accent",
+      skills: [
+        { name: "Flutter", level: 70 },
+        { name: "Dart", level: 70 }
+      ]
+    },
+    {
+      title: "Backend",
       icon: Server,
       color: "primary",
       skills: [
-        { name: "ASP.NET Core" },
-        { name: "C#" },
-        { name: "Entity Framework" },
-        { name: "SQL Server" },
-        { name: "RESTful APIs" },
-        { name: ".Net 8" }
+        { name: "ASP.NET Core", level: 80 },
+        { name: "C#", level: 80 }
       ]
     },
     {
-      title: "Frontend Geliştirme", 
-      icon: Globe,
-      color: "primary",
-      skills: [
-        { name: "React", level: 85 },
-        { name: "TypeScript", level: 80 },
-        { name: "Tailwind CSS", level: 90 },
-        { name: "Next.js", level: 75 },
-        
-      ]
-    },
-    {
-      title: "Veritabanları",
+      title: "Veritabanı",
       icon: Database,
-      color: "primary",
-      skills: [
-        { name: "SQL Server" },
-        { name: "PostgreSQL" },
-        
-      ]
-    },
-    {
-      title: "Diğer Teknolojiler",
-      icon: Layers,
       color: "success",
       skills: [
+        { name: "SQL", level: 75 },
+        { name: "NoSQL", level: 60 }
+      ]
+    },
+    {
+      title: "Araçlar & Teknolojiler",
+      icon: Layers,
+      color: "foreground",
+      skills: [
         { name: "Git", level: 85 },
-        { name: "Siber Güvenlik", level: 60 },
-        { name: "Azure", level: 55 }
+        { name: "Github", level: 85 },
+        { name: "Antigravity", level: 90 }
       ]
     }
   ];
@@ -95,10 +87,10 @@ const Skills = () => {
                   </div>
                   <h3 className="text-xl font-semibold">{category.title}</h3>
                 </div>
-                
+
                 <div className="flex flex-wrap gap-2">
                   {category.skills.map((skill, skillIndex) => (
-                    <span 
+                    <span
                       key={skillIndex}
                       className={`
                         px-3 
@@ -121,7 +113,7 @@ const Skills = () => {
         </div>
 
 
-        
+
       </div>
     </section>
   );

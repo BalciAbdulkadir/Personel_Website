@@ -1,19 +1,19 @@
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
+import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
-import Makalelerim from "@/components/Makalelerim";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
       <Hero />
       <About />
+      <Experience />
       <Skills />
       <Projects />
-      <Makalelerim />
       <Contact />
       <Footer />
     </div>
