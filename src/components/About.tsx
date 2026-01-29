@@ -54,15 +54,7 @@ const About = () => {
               </div>
             </Card>
 
-            {/* Goals Card */}
-            <Card className="glass-effect border-border p-6 card-hover animate-slide-up">
-              <div className="flex items-start">
-                <div className="p-3 bg-accent/10 rounded-lg mr-4">
-                  <Target className="h-6 w-6 text-accent" />
-                </div>
-
-              </div>
-            </Card>
+            
 
             {/* Quick Facts */}
             <Card className="glass-effect border-border p-6 card-hover animate-slide-up">
