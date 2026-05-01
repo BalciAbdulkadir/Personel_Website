@@ -30,10 +30,7 @@ const Skills = () => {
         { name: "ASP.NET Core", level: 80 },
         { name: "C#", level: 80 },
         { name: "Entity Framework Core", level: 80 },
-        {
-          name: "ASP.NET Core Identity", level: 80
-
-        }
+        { name: "ASP.NET Core Identity", level: 80}
       ]
     },
     {
@@ -42,7 +39,9 @@ const Skills = () => {
       color: "success",
       skills: [
         { name: "SQL", level: 75 },
-        { name: "NoSQL", level: 60 }
+        { name: "NoSQL", level: 60 },
+        { name: "Firebase", level: 75 },
+        { name: "Supabase", level: 75 }
       ]
     },
     {
