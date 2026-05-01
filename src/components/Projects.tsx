@@ -47,7 +47,7 @@ const Projects = () => {
       description: "NFC Kartvizit Uygulaması",
       longDescription: "Flutter kullanılarak geliştirilen bu projede, NFC Kartlarına veri yazmayı sağlayan bir mobil uygulama geliştirilmiştir. Verileri okuma kısmında ise Web arayüzü oluşturulmuş ve NFC Kartlarına yazılan veriler bu arayüz üzerinden görüntülenebilmektedir. ",
 
-      technologies: ["Flutter", "Dart", "Firebase"],
+      technologies: ["Flutter", "Dart", "Supabase" , "Vercel" , "GoRouter" , "NFC Manager & NDEF" , "QR Flutter" ],
       icon: HandCoins,
       gradient: "from-purple-600 to-indigo-600",
       githubUrl: "https://github.com/BalciAbdulkadir/Neo_Card",

@@ -10,9 +10,9 @@ const About = () => {
             <span className="gradient-text">Hakkımda</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Bilgi İşlem alanında staj deneyimi ve serbest geliştirici olarak web projeleri geliştirme tecrübesine sahibim.
+            Bilgi İşlem alanında staj deneyimi ve serbest geliştirici olarak web projeleri geliştirme tecrübesine sahibim. 
             Özellikle ASP.NET Core ve React teknolojileri ile performans odaklı çözümler üretiyorum.
-            Öte yandan Flutter ile mobil uygulama geliştirme alanında da kendimi geliştirdim. Aktif Projeler yapıyorum.
+            Öte yandan Flutter ile mobil uygulama geliştirme alanında da kendimi geliştirdim. Aktif Projeler yapıyorum. 
           </p>
         </div>
 

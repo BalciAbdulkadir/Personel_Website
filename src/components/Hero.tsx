@@ -41,10 +41,7 @@ const Hero: React.FC = () => {
             </p>
 
             <p className="text-lg text-muted-foreground mb-12 leading-relaxed max-w-2xl">
-              Modern web uygulamaları ve backend sistemleri geliştiriyorum. ASP.NET Core,
-              React ve modern teknolojilerle kullanıcı deneyimini ön planda tutan çözümler üretiyorum.
-              Öte yandan Flutter ile mobil uygulama geliştirme alanında da kendimi geliştirdim.
-            </p>
+Modern web uygulamaları ve backend sistemleri geliştiriyorum. ASP.NET Core, React ve modern teknolojilerle kullanıcı deneyimini ön planda tutan çözümler üretiyorum. Öte yandan Flutter ile mobil uygulama geliştirme alanında da kendimi geliştirdim. Bilgi İşlem departmanında yaptığım stajım sayesinde son kullanıcı desteği ve donanım konularında bilgi sahibiyim. Ayrıca otomasyon sistemlerinin bakımı hakkında da tecrübem mevcut.            </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mb-16">
               <button onClick={scrollToProjects} className="btn-hero-primary group">
