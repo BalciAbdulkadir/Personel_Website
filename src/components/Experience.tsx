@@ -18,7 +18,9 @@ const Experience = () => {
             period: "07/2025 - 09/2025",
             description: [
                 "Windows istemci kurulumları ve ağ yapılandırma destekleri sağladım.",
-                "Otomasyon sistemlerinin bakımı aşamalarına destek oldum."
+                "Otomasyon sistemlerinin bakımı aşamalarına destek oldum.",
+                "Son kullanıcı desteği sağladım.",
+                "Kurumun Bilgi İşlem görevlisi izne çıktığında, geçici olarak tek başıma sorumluluk aldım."
             ]
         }
     ];

@@ -1,7 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 // 1. GÜNCELLEME: 'HandCoins' ikonu buraya import edildi.
-import { ExternalLink, Github, Code, Zap, Shield, Gamepad2, HandCoins } from "lucide-react";
+import { ExternalLink, Github, Code, Zap, Shield, Gamepad2, HandCoins, IdCard } from "lucide-react";
 
 const Projects = () => {
   const projects = [
@@ -48,7 +48,7 @@ const Projects = () => {
       longDescription: "Flutter kullanılarak geliştirilen bu projede, NFC Kartlarına veri yazmayı sağlayan bir mobil uygulama geliştirilmiştir. Verileri okuma kısmında ise Web arayüzü oluşturulmuş ve NFC Kartlarına yazılan veriler bu arayüz üzerinden görüntülenebilmektedir. ",
 
       technologies: ["Flutter", "Dart", "Supabase" , "Vercel" , "GoRouter" , "NFC Manager & NDEF" , "QR Flutter" ],
-      icon: Card,
+      icon: IdCard,
       gradient: "from-purple-600 to-indigo-600",
       githubUrl: "https://github.com/BalciAbdulkadir/Neo_Card",
       demoUrl: "#",
