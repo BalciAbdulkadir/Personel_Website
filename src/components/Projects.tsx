@@ -60,7 +60,7 @@ const Projects = () => {
       longDescription: "Kashf OSINT, modern ağ analizi ve siber tehdit istihbaratı süreçlerini mobil platforma taşıyan, yüksek performanslı ve gizlilik odaklı bir Siber İstihbarat aracıdır. Flutter ile geliştirilen bu uygulama, kullanıcıların çeşitli OSINT araçlarını tek bir platformda kullanarak hedef ağları analiz etmelerine olanak tanır. Uygulama, güçlü veri görselleştirme özellikleri ve sezgisel bir kullanıcı arayüzü sunarak, siber güvenlik uzmanlarının ve araştırmacıların karmaşık ağ verilerini kolayca anlamalarını sağlar.",
       technologies: ["Flutter", "Dart", "NoSQL", "JetBrains Mono"],
       icon: Binoculars,
-      gradient: "from-success to-success-glow",
+      gradient: "from-red-600 to-orange-600",
        githubUrl: "https://github.com/BalciAbdulkadir/kashf_osint",
       demoUrl: "#",
       featured: true
